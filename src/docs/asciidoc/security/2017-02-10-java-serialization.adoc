@@ -1,4 +1,4 @@
-# Java Serialization, Fixed in Akka 2.4.17
+= Java 序列化，于 Akka 2.4.17 修复
 
 ### Date
 
