@@ -1,4 +1,4 @@
-# Broken random number generators AES128CounterSecureRNG / AES256CounterSecureRNG, Fixed in Akka 2.5.16
+# 损坏的随机数生成器 AES128CounterSecureRNG / AES256CounterSecureRNG，于 Akka 2.5.16 修复
 
 ### CVE ID
 
