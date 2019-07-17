@@ -2,6 +2,7 @@
 YuCheng Hu <yhu@ossez.com>
 :description: Akka Security 公告
 :keywords: Akka Security 公告
+:doctype: book
 :page-layout: docs
 :page-description: {description}
 :page-keywords: {keywords}
@@ -34,8 +35,18 @@ to ensure that a fix can be provided without delay.
  * @ref:[Remote deployment whitelist](../remoting.md#remote-deployment-whitelist)
  * @ref:[Remote Security](../remoting-artery.md#remote-security)
 
-== Fixed Security Vulnerabilities
+== 已经修复的安全问题
 
-* xref:2017-02-10-java-serialization.adoc[Java 序列化，于 Akka 2.4.17 修复]
-* xref:2017-08-09-camel.adoc[Camel 依赖，于 Akka 2.5.4 修复]
-* xref:2018-08-29-aes-rng.adoc[损坏的随机数生成器 AES128CounterSecureRNG / AES256CounterSecureRNG，于 Akka 2.5.16 修复]
+=== Camel 依赖，于 Akka 2.5.4 修复
+
+include::2017-08-09-camel.adoc[]
+
+=== Java 序列化，于 Akka 2.4.17 修复
+
+include::2017-02-10-java-serialization.adoc[]
+
+=== 损坏的随机数生成器 AES128CounterSecureRNG / AES256CounterSecureRNG，于 Akka 2.5.16 修复
+
+include::2018-08-29-aes-rng.adoc[]
+
+
