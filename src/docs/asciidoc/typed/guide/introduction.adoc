@@ -1,6 +1,19 @@
-# Introduction to Akka
+= Akka 介绍
+YuCheng Hu <yhu@ossez.com>
+:description: Akka 介绍
+:keywords: Akka 介绍
+:doctype: book
+:page-layout: docs
+:page-description: {description}
+:page-keywords: {keywords}
+ifndef::env-site[]
+:toc: left
+:idprefix:
+:idseparator: -
+endif::[]
 
-Welcome to Akka, a set of open-source libraries for designing scalable, resilient systems that span processor cores and networks. Akka allows you to focus on meeting business needs instead of writing low-level code to provide reliable behavior, fault tolerance, and high performance.
+Welcome to Akka, a set of open-source libraries for designing scalable, resilient systems that span processor cores and networks.
+Akka allows you to focus on meeting business needs instead of writing low-level code to provide reliable behavior, fault tolerance, and high performance.
 
 Many common practices and accepted programming models do not address important challenges
 inherent in designing systems for modern computer architectures. To be
@@ -28,7 +41,7 @@ and deep set of tools that solve difficult distributed/parallel systems problems
 in a uniform programming model where everything fits together tightly and
 efficiently.
 
-## How to get started
+== 如何开始使用
 
 If this is your first experience with Akka, we recommend that you start by
 running a simple Hello World project. See the @scala[[Quickstart Guide](http://developer.lightbend.com/guides/akka-quickstart-scala)] @java[[Quickstart Guide](http://developer.lightbend.com/guides/akka-quickstart-java)] for
@@ -38,7 +51,7 @@ FIXME update link to Quickstart to the Typed version, when it's ready, issue htt
 
 This *Getting Started* guide provides the next level of information. It covers why the actor model fits the needs of modern distributed systems and includes a tutorial that will help further your knowledge of Akka. Topics include:
 
-* @ref:[Why modern systems need a new programming model](actors-motivation.md)
+* xref:actors-motivation.adoc[]
 * @ref:[How the actor model meets the needs of concurrent, distributed systems](actors-intro.md)
 * @ref:[Overview of Akka libraries and modules](modules.md)
 * A @ref:[more complex example](tutorial.md) that builds on the Hello World example to illustrate common Akka patterns.
