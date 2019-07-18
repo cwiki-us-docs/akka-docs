@@ -36,15 +36,9 @@ TIP: 不能找到你需要的信息？通过访问 http://discuss.asciidoctor.or
 
 * http://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation] (article by vogella)
 
-
-
-=== Akka  公告
-
-include::{securitydir}/index.adoc[Security 公告]
-
 == Akka 内容快速导航
-* xref:security/index.adoc[Security 公告]
-* [guide/index](typed/guide/index.md)
+* xref:{securitydir}/index.adoc[Security 公告]
+* xref:typed/guide/index.adoc[开始使用指南]
 * [general/index](general/index.md)
 * [index-actors](typed/index.md)
 * [persistence](typed/persistence.md)
@@ -60,4 +54,3 @@ include::{securitydir}/index.adoc[Security 公告]
 * [additional/index](additional/index.md)
 * [classic](index-classic.md)
 
-@@@
