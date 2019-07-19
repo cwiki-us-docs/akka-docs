@@ -1,16 +1,16 @@
 = Akka Actor
 YuCheng Hu <yhu@ossez.com>
-:description: Akka Actor
-:keywords: Akka
+:doctype: book
 :page-layout: docs
-:page-description: {description}
-:page-keywords: {keywords}
-:rainbow-themes: pass:quotes[[red]##t##[green]##h##[purple]##e##[fuchsia]##m##[blue]##e##[teal]##s##]
+:toc: left
+:toclevels: 2
 ifndef::env-site[]
 :toc: left
 :idprefix:
 :idseparator: -
 endif::[]
 
-== 快速导航
+:docinfodir: ../common/meta
+
+== 快速导航D
 * xref:actors.adoc[Actors]
