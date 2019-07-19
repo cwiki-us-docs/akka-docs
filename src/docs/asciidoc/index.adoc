@@ -38,7 +38,7 @@ Akka可以以两种不同的方式来使用：
 - 以微内核的形式：你可以将应用放进一个独立的内核。
 
 == Akka 内容快速导航
-* xref:{securitydir}/index.adoc[Security 公告]
+* xref:security.adoc[Security 公告]
 * xref:guide.adoc[开始使用指南]
 * [general/index](general/index.md)
 * [index-actors](typed/index.md)
