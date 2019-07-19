@@ -18,8 +18,7 @@ endif::[]
 
  * xref:guide_introduction.adoc[Akka 介绍]
  * xref:guide_actors-motivation.adoc[为什么现代系统需要一个新的编程模型]
- * [actors-motivation](actors-motivation.md)
- * [actors-intro](actors-intro.md)
+ * xref:guide_actors-intro.adoc[Actor 模型是如何满足现代的分布式系统的]
  * [modules](modules.md)
  * [tutorial](tutorial.md)
  * [part1](tutorial_1.md)
