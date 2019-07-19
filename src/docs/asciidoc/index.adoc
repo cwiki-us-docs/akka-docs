@@ -1,17 +1,14 @@
 = Akka 文档
 YuCheng Hu <yhu@ossez.com>
-:description: Index page listing AsciiDoc and Asciidoctor documents and resources including the Asciidoctor User Manual, AsciiDoc Quick Reference Guide, the benefits of AsciiDoc, the benefits of Asciidoctor, Asciidoctor Installation Guide, How to Convert an AsciiDoc document, and Asciidoctor Developer Resources.
-:keywords: Asciidoctor, AsciiDoc, documentation, user manual, cheatsheet, ref card, AsciiDoc versus Markdown, Asciidoctor versus Markdown, install
+
 :doctype: book
 :page-layout: docs
 :toc: left
 :toclevels: 2
-:page-description: {description}
-:page-keywords: {keywords}
-:rainbow-themes: pass:quotes[[red]##t##[green]##h##[purple]##e##[fuchsia]##m##[blue]##e##[teal]##s##]
 
 :includedir: _includes
 :securitydir: security
+
 
 单击页面中的链接来学习有关 AsciiDoc 标记语言，Asciidoctor 工具集和有关 Asciidoctor 的整合集成。
 你将同时找到一些能够让 AsciiDoc 句法更有效率的技巧。
@@ -38,7 +35,7 @@ TIP: 不能找到你需要的信息？通过访问 http://discuss.asciidoctor.or
 
 == Akka 内容快速导航
 * xref:{securitydir}/index.adoc[Security 公告]
-* xref:typed/guide/index.adoc[开始使用指南]
+* xref:guide.adoc[开始使用指南]
 * [general/index](general/index.md)
 * [index-actors](typed/index.md)
 * [persistence](typed/persistence.md)
