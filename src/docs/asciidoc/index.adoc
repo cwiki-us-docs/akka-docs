@@ -12,6 +12,8 @@ YuCheng Hu <yhu@ossez.com>
 
 image::https://travis-ci.org/cwiki-us-docs/akka-docs.svg?branch=master[]
 
+CWIKI.US 的 Wiki 相关内容请访问： https://www.cwiki.us/display/AkkaZH/Akka
+
 TIP: 如果你希望查看 Akka-docs 的源文件，请参考：https://github.com/cwiki-us-docs/akka-docs 项目。
 
 == Akka 基本介绍
