@@ -6,28 +6,34 @@ YuCheng Hu <yhu@ossez.com>
 :toclevels: 2
 
 
-单击页面中的链接来学习有关 AsciiDoc 标记语言，Asciidoctor 工具集和有关 Asciidoctor 的整合集成。
-你将同时找到一些能够让 AsciiDoc 句法更有效率的技巧。
+本文档的所有文件都是从 AsciiDoc 标记语言源文件中自动构建生成的。
 
-TIP: 不能找到你需要的信息？通过访问 http://discuss.asciidoctor.org/[讨论列表]或者or the https://gitter.im/asciidoctor/asciidoctor[asciidoctor/asciidoctor 提交者频道]来联系项目的成员和用户。
+自动持续构建的状态如下：
 
-== 基本介绍
+image::https://travis-ci.org/cwiki-us-docs/akka-docs.svg?branch=master[]
 
-发现 Asciidoctor 和 Asciidoctor 是如何能够帮助你的。
+TIP: 如果你希望查看 Akka-docs 的源文件，请参考：https://github.com/cwiki-us-docs/akka-docs 项目。
 
-* xref:what-is-asciidoctor.adoc[什么是 Asciidoctor]
+== Akka 基本介绍
 
-* xref:what-is-asciidoc.adoc[什么是 AsciiDoc？为什么我们需要它]
+Akka 是一个用 Scala 编写的库，用于简化编写容错的、高可伸缩性的 Java 和 Scala 的 Actor 模型应用。
 
-* xref:asciidoc-asciidoctor-diffs.adoc[HAsciidoctor 和 AsciiDoc 有什么不同]
+官方网站 （http://akka.io/）的介绍是：
 
-* link:/#authors[Who created Asciidoctor?]
+[quote]
+____
+Akka is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.
 
-* https://github.com/asciidoctor/asciidoctor/blob/master/LICENSE[Asciidoctor 的许可证是什么]
+Build powerful concurrent & distributed applications more easily.
+____
 
-* xref:asciidoc-vs-markdown.adoc[AsciiDoc 和 Markdown 有什么不同]
+翻译成中文就是：Akka是一个开发库和运行环境，可以用于构建高并发、分布式、可容错、事件驱动的基于JVM的应用。使构建高并发的分布式应用更加容易。
 
-* http://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation] (article by vogella)
+Akka可以以两种不同的方式来使用：
+
+- 以库的形式：在web应用中使用，放到 WEB-INF/lib 中或者作为一个普通的Jar包放进classpath。
+
+- 以微内核的形式：你可以将应用放进一个独立的内核。
 
 == Akka 内容快速导航
 * xref:{securitydir}/index.adoc[Security 公告]
