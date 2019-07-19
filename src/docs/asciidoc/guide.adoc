@@ -1,12 +1,8 @@
 = 开始使用指南
 YuCheng Hu <yhu@ossez.com>
-:description: Akka 开始使用指南
-:keywords: Akka 开始使用指南
 :doctype: book
 :page-layout: docs
-:page-description: {description}
-:page-keywords: {keywords}
-:rainbow-themes: pass:quotes[[red]##t##[green]##h##[purple]##e##[fuchsia]##m##[blue]##e##[teal]##s##]
+
 ifndef::env-site[]
 :toc: left
 :idprefix:

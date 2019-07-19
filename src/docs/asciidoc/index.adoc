@@ -1,13 +1,9 @@
 = Akka 文档
 YuCheng Hu <yhu@ossez.com>
-
 :doctype: book
 :page-layout: docs
 :toc: left
 :toclevels: 2
-
-:includedir: _includes
-:securitydir: security
 
 
 单击页面中的链接来学习有关 AsciiDoc 标记语言，Asciidoctor 工具集和有关 Asciidoctor 的整合集成。
