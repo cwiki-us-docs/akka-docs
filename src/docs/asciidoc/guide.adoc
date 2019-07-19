@@ -19,10 +19,10 @@ endif::[]
  * xref:guide_introduction.adoc[Akka 介绍]
  * xref:guide_actors-motivation.adoc[为什么现代系统需要一个新的编程模型]
  * xref:guide_actors-intro.adoc[Actor 模型是如何满足现代的分布式系统的]
- * [modules](modules.md)
- * [tutorial](tutorial.md)
- * [part1](tutorial_1.md)
- * [part2](tutorial_2.md)
- * [part3](tutorial_3.md)
- * [part4](tutorial_4.md)
- * [part5](tutorial_5.md)
+ * xref:guide_modules.adoc[Akka 库和模块概述]
+ * xref:guide_tutorial.adoc[示例介绍]
+ * xref:guide_tutorial_1.adoc[Actor 系统架构]
+ * xref:guide_tutorial_2.adoc[创建第一个 Actor]
+ * xref:guide_tutorial_3.adoc[Device Actors 是如何工作的]
+ * xref:guide_tutorial_4.adoc[Device Groups 是如何工作的]
+ * xref:guide_tutorial_5.adoc[Device Groups 队列]
