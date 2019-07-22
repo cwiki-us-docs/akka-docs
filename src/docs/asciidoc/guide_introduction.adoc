@@ -12,20 +12,16 @@ ifndef::env-site[]
 :idseparator: -
 endif::[]
 
-Welcome to Akka, a set of open-source libraries for designing scalable, resilient systems that span processor cores and networks.
-Akka allows you to focus on meeting business needs instead of writing low-level code to provide reliable behavior, fault tolerance, and high performance.
+欢迎使用 Akka，Akka 是一套被用来在在多处理器核心和网络之间被设计可扩展和具有相关弹性的开源工具集。
+Akka 允许你更加关注商业需求而不是书写低级别的代码来提供可靠性，容错率和高性能。
 
-Many common practices and accepted programming models do not address important challenges
-inherent in designing systems for modern computer architectures. To be
-successful, distributed systems must cope in an environment where components
-crash without responding, messages get lost without a trace on the wire, and
-network latency fluctuates. These problems occur regularly in carefully managed
-intra-datacenter environments - even more so in virtualized architectures.
+很多常用的设计实践和已经接受的程序模型不能解决一些重要的挑战，这些挑战通常是现代计算机体系结构中固有的。
+为了让项目取得成功，分布式系统必须能够应付一些环境出现的问题，例如组件崩溃不能响应，发送的消息没有痕迹的就丢失了，为了让分布式系统能够成功的运行，以及网络延迟和波动
+等问题。这些问题在具有很好管理和监控环境下的数据中心经常会发生，针对虚拟架构环境就更加容易出现上面的这些问题了。
 
-To help you deal with these realities, Akka provides:
+为了帮助你处理上面提到这些现实的问题，Akka 提供了：
 
- * Multi-threaded behavior without the use of low-level concurrency constructs like
-   atomics or locks &#8212; relieving you from even thinking about memory visibility issues.
+ * 不使用低级并发结构的多线程，例如原子或锁；让你免于考虑内存可见性的问题。
  * Transparent remote communication between systems and their components &#8212; relieving you from writing and maintaining difficult networking code.
  * A clustered, high-availability architecture that is elastic, scales in or out, on demand &#8212; enabling you to deliver a truly reactive system.
 
