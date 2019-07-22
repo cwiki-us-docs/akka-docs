@@ -46,16 +46,13 @@ Akka 使用 actor 抽象模型能够让 Akka 更加容易的创建正确的并�
 通过学习 Akka 和如何使用 actor 模型，你将访问到庞大和深入的工具集用来解决分布式并行系统中遇到的困难和挑战，通过统一的编程模型，其中所有的东西都能够紧密和高效的组合在了一起。
 
 == 如何开始使用
+如果你是第一次开始使用 Akka，我们推荐你先运行简单的 Hello World 项目。
+情况参考 http://developer.lightbend.com/guides/akka-quickstart-scala[Quickstart Guide Scala] 和 http://developer.lightbend.com/guides/akka-quickstart-java[Quickstart Guide Java]
+页面中的内容来下载和运行 Hello World 示例程序。
 
-If this is your first experience with Akka, we recommend that you start by
-running a simple Hello World project. See the @scala[[Quickstart Guide](http://developer.lightbend.com/guides/akka-quickstart-scala)] @java[[Quickstart Guide](http://developer.lightbend.com/guides/akka-quickstart-java)] for
-instructions on downloading and running the Hello World example. The *Quickstart* guide walks you through example code that introduces how to define actor systems, actors, and messages as well as how to use the test module and logging. Within 30 minutes, you should be able to run the Hello World example and learn how it is constructed.
+上面链接中的 _快速使用指南_ 来帮助你了解如何定义 actor 系统，actors 和消息，以及如何使用测试模块和日志系统。
 
-FIXME update link to Quickstart to the Typed version, when it's ready, issue https://github.com/akka/akka/issues/25997
-
-This *Getting Started* guide provides the next level of information. It covers why the actor model fits the needs of modern distributed systems and includes a tutorial that will help further your knowledge of Akka. Topics include:
-
-* xref:actors-motivation.adoc[]
-* @ref:[How the actor model meets the needs of concurrent, distributed systems](actors-intro.md)
-* @ref:[Overview of Akka libraries and modules](modules.md)
-* A @ref:[more complex example](tutorial.md) that builds on the Hello World example to illustrate common Akka patterns.
+* xref:guide_actors-motivation.adoc[为什么现代系统需要一个新的编程模型]
+* xref:guide_actors-intro.adoc[Actor 模型是如何满足现代的分布式系统的]
+* xref:guide_modules.adoc[Akka 库和模块概述]
+* 一些使用 Akka 设计模式用来构建 Hello World 的 xref:guide_tutorial.adoc[更多的完整示例程序]
