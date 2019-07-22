@@ -1,4 +1,4 @@
-= Akka 介绍
+= Introduction to Akka
 YuCheng Hu <yhu@ossez.com>
 :description: Akka 介绍
 :keywords: Akka 介绍
@@ -11,6 +11,8 @@ ifndef::env-site[]
 :idprefix:
 :idseparator: -
 endif::[]
+
+中文标题【Akka 介绍】
 
 欢迎使用 Akka，Akka 是一套被用来在在多处理器核心和网络之间被设计可扩展和具有相关弹性的开源工具集。
 Akka 允许你更加关注商业需求而不是书写低级别的代码来提供可靠性，容错率和高性能。
