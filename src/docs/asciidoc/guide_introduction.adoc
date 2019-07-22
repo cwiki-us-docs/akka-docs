@@ -39,17 +39,11 @@ NOTE: Reactive System. A reactive system is a system that responds (reacts) to e
 在电信领域，生产控制或者在硬件环境的构造（嵌入式系统）中还存在很多这样的例子。
 在信息系统中，也就是基于数据库的应用系统中也要用到 reactive system。在给一个典型的例子就是警报系统(Early Warning System).
 
-Akka's use of the actor model provides a level of abstraction that makes it
-easier to write correct concurrent, parallel and distributed systems. The actor
-model spans the full set of Akka libraries, providing you with a consistent way
-of understanding and using them. Thus, Akka offers a depth of integration that
-you cannot achieve by picking libraries to solve individual problems and trying
-to piece them together.
 
-By learning Akka and how to use the actor model, you will gain access to a vast
-and deep set of tools that solve difficult distributed/parallel systems problems
-in a uniform programming model where everything fits together tightly and
-efficiently.
+Akka 使用 actor 抽象模型能够让 Akka 更加容易的创建正确的并发，并行的分布式系统。actor 模型贯穿整个 Akka 的库，能够让你更加容易的理解和使用它们，并且能够保证更好的完整性。
+因此 Akka 提供了一个深度的整合和集成，如果你无法通过选择库来解决个别问题的时候，你可以尝试将这些整合在一起。
+
+通过学习 Akka 和如何使用 actor 模型，你将访问到庞大和深入的工具集用来解决分布式并行系统中遇到的困难和挑战，通过统一的编程模型，其中所有的东西都能够紧密和高效的组合在了一起。
 
 == 如何开始使用
 
