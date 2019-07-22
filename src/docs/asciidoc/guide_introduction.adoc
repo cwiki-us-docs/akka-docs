@@ -22,8 +22,20 @@ Akka 允许你更加关注商业需求而不是书写低级别的代码来提供
 为了帮助你处理上面提到这些现实的问题，Akka 提供了：
 
  * 不使用低级并发结构的多线程，例如原子或锁；让你免于考虑内存可见性的问题。
- * Transparent remote communication between systems and their components &#8212; relieving you from writing and maintaining difficult networking code.
- * A clustered, high-availability architecture that is elastic, scales in or out, on demand &#8212; enabling you to deliver a truly reactive system.
+ * 系统和组件之间的远程通讯透明性 &#8212; 让你免于属性和维护复杂的网络代码。
+ * 一个高可用性的集群架构，这个集群具有相当的弹性，在线方式 &#8212；让你真正能够部署一个反应系统。
+
+NOTE: Reactive System. A reactive system is a system that responds (reacts) to external events.
+反应系统是一个能对外部事件做出相应反应的系统。早期所谓的reactive system是软件系统的一个分支，意思正如它的名字所描述的。
+后来这个概念被美国的David Harel明确下来，其最主要部分是描述反应行为。
+什么是反应行为呢？下面看一个转换系统的例子 输入（开始）->软件系统（经过一段时间后停止运行）->（然后）输出 例子中用户把数据输入给计算机，软件对这些数据经过一段时间的计算，
+最后给出输出结果，我们可以看作一个会计的月结算或者一个测量的统计数据。
+能够得知，输入数据经过特定的规则被转换，并且在结束计算过程以后给出结果。而reactive system却与此相反。
+与转换系统相反，在reactive system里往往没有明确的时序安排。总体来讲，reactive system表示的是不限制运行时间的系统，这其中要和外部环境相互作用，
+也就是在外部刺激上的反应(reactive)，例如和不同使用者或者外部的硬件等，但是也包括内部发生的交流行为，因为reactive system是被集成在并行运行的分布式系统的规则中的。
+例如，一个计算机的操作系统是这样一个reactive system，它不会停止运行,而总是反应用户给的输入,并且计算机中的各个组件之间要进行交流。
+在电信领域，生产控制或者在硬件环境的构造（嵌入式系统）中还存在很多这样的例子。
+在信息系统中，也就是基于数据库的应用系统中也要用到 reactive system。在给一个典型的例子就是警报系统(Early Warning System).
 
 Akka's use of the actor model provides a level of abstraction that makes it
 easier to write correct concurrent, parallel and distributed systems. The actor
